@@ -14,7 +14,6 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className='flex-row w-full relative z-0'>
           <Contact />
           <StarsCanvas />

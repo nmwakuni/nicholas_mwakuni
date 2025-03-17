@@ -50,7 +50,7 @@ const About = () => {
         I'm a full-stack developer specializing in modern web technologies. 
         With expertise in React and Next.js, I create responsive, 
         user-focused interfaces that deliver exceptional experiences. 
-        My back-end skills in enable me to build robust APIs and 
+        My back-end skills enable me to build robust APIs and 
         server-side applications that power seamless functionality.
         I combine technical proficiency with creative problem-solving to 
         develop scalable solutions that meet complex business needs. 
