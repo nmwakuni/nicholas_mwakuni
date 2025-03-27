@@ -15,8 +15,18 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  external_link,
 }) => {
+
+  const projectLink = external_link || source_code_link;
+
   return (
+    <a 
+    href={projectLink} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block" // Ensures the entire area is clickable
+  >
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
@@ -64,6 +74,7 @@ const ProjectCard = ({
         </div>
       </Tilt>
     </motion.div>
+    </a>
   );
 };
 

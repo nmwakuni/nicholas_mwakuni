@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  gamingsite,
   jobit,
   tripguide,
   threejs,
@@ -188,16 +188,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gaming Site",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A gaming site landing page with eye catching animations.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "gsap",
         color: "green-text-gradient",
       },
       {
@@ -205,8 +205,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gamingsite,
+    source_code_link: "https://github.com/nmwakuni/gamesite",
+    external_link: "https://gamesite-vert.vercel.app/",
   },
   {
     name: "Job IT",
